@@ -4,9 +4,9 @@ const Footer = () => {
     return (
         <section className="footer">
             <div className="footer__container container">
-                <div className="footer__top row d-flex">
+                <div className="footer__top wrap row d-flex">
                     <div className="footer__col col footer__nav">
-                        <ul className="footer__menu menu-footer">
+                        <ul className="footer__menu menu-footer d-flex wrap">
                             <li className="menu-footer__item">
                                 <a href="#" className="menu-footer__link">Кухни</a>
                             </li>
@@ -34,14 +34,17 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="footer__col col footer__connect">
-                        <p className="footer__text">Вызов дизайнера и дизайн-проект бесплатно!</p>
-                        <button type="button" className="footer__button">Консультация дизайнера</button>
-                        <button type="button" className="footer__button">Обратный звонок</button>
+                        <p className="footer__sentence">Вызов дизайнера и дизайн-проект бесплатно!</p>
+                        <button type="button" className="footer__button button">Консультация дизайнера</button>
+                        <button type="button" className="footer__button button">Обратный звонок</button>
                     </div>
-                    <div className="footer__col col footer__main">
+                    <div className="footer__col col footer__main d-flex">
                         <a href="#" className="footer__logo logo">
                             <img src="" alt="" className="logo__image" />
                         </a>
+                        <p className="footer__text">Один телефон для любых вопросов</p>
+                        <a href="#" className="footer__phone">+7 (812) 677-75-85</a>
+                        <button type="button" className="footer__button button">Оплата онлайн</button>
                     </div>
                 </div>
                 <div className="footer__bottom row d-flex">

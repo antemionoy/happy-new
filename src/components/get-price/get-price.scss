@@ -13,12 +13,16 @@
     &__column {
         padding: 0px 10px;
         margin: 0px 0px 19px;
-        background-color: $color-gray;
         text-align: center;
+        
+        &:last-child{
+            margin-bottom: 0px;
+        }
     }
 
     &__content {
         padding: 25px 10px 29px;
+        background-color: $color-gray;
     }
 
     &__circle{
